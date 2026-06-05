@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+	
+}
+.header{
+	display:flex;
+	justify-content:space-between;
+	background:blue;
+	border:1px solid black;
+
+	height:50px;
+	padding:0 60px 0 60px; 
+}
+.mobile-nav{
+	display:none;
+}
+/*
+.nav{
+	font-size:13px;
+	color:#64748b;
+	text-decoration:none;
+	padding-left:15px;
+	position:relative;
+	right:435px;
+	transition:0.3s ease;
+}
+.nav:hover {
+  color: purple;
+  background-color: transparent;
+}
+#sparkle{
+	width:15px;
+	height:25px;
+	margin-bottom:-8px;
+}
+#profie{
+	font-size:15px;
+	padding-right:8px;
+}
+#drop{
+	padding-left:-20px;
+	border-radius:10px;
+	background:lightblue;
+	width:200px;
+	height:20px;
+}
+.logos{
+	display:block;
+}
+.card-image1{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	gap:10px;
+}
+.card-image2{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	gap:10px;
+}*/
+@media screen and (min-width:500px){
+	.mobile-nav{
+		background:grey;
+		width:100%;
+		position:fixed;
+		bottom:0px;
+		border:1px solid green;
+		display:block;
+		height:150px;
+	}
+	.header{
+	background:red;}
+	
+}
