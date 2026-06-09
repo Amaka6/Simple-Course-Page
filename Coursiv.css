@@ -19,6 +19,11 @@ body{
 .mobile-nav{
 	display:none;
 }
+.menu{
+	display:block;
+	/* justify-content:space-between; */
+	/* align-items:center; */
+}
 /*
 .nav{
 	font-size:13px;
@@ -64,17 +69,22 @@ body{
 	align-items:center;
 	gap:10px;
 }*/
-@media screen and (min-width:500px){
+@media screen and (max-width:500px){
 	.mobile-nav{
 		background:grey;
 		width:100%;
 		position:fixed;
-		bottom:0px;
+		bottom:0;
 		border:1px solid green;
 		display:block;
-		height:150px;
+		height:80px;
+		z-index:1000;
 	}
 	.header{
-	background:red;}
-	
+		background:red;
+	}
+	.menu{
+		display:none;
+	}
+
 }
