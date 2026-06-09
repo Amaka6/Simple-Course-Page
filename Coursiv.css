@@ -61,6 +61,13 @@ body{
 	padding:4px 13px;
 	height:30px;
 }
+.container{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+}
 .mastery{
 	display:flex;
 	justify-content:space-between;
@@ -71,8 +78,8 @@ body{
 	width:850px;
 	height:115px;
 	margin-top:45px;
-	margin-left:350px;
 }
+
 .mastery1{
 	padding-left:8px;
 	border-right:1px solid #c5c5f7;
@@ -130,7 +137,6 @@ body{
 	width:470px;
 	height:205px;
 	margin-top:45px;
-	margin-left:350px;
 	padding-left:10px;
 	padding-top:15px;
 }
@@ -194,7 +200,6 @@ body{
 	width:370px;
 	height:205px;
 	margin-top:45px;
-	margin-right:340px;
 	padding-left:20px;
 	padding-top:15px;
 }
@@ -247,7 +252,6 @@ body{
 	width:850px;
 	height:114px;
 	margin-top:45px;
-	margin-left:350px;
 	padding-left:20px;
 	padding-top:15px;
 	position:relative;
