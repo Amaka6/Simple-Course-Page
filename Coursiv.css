@@ -282,7 +282,7 @@ body{
 	gap:10px;
 }
 
-@media screen and (min-width:500px){
+@media screen and (max-width:500px){
 	.mobile-nav{
 		background:grey;
 		width:100%;
